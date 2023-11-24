@@ -31,18 +31,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera: ^0.10.27
-  permission_handler: ^14.0.0
-  flutter_icons: ^4.0.0
-
-
-
-  #  camera: ^0.10.5+5
-#  camera: ^0.10.5+5
-#  fl_chart: ^0.44.0
-
-#  flutter:
-#    sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.

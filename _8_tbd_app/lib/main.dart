@@ -182,6 +182,16 @@ class _LogPage extends State<LogPage> {
 
 
 class RequestLogList extends StatelessWidget {
+
+
+
+  final List<String> logDetails = [
+    'Power outages persist, requesting prompt resolution. Bathroom facilities at your office are currently unavailable. Assistance appreciated for a swift resolution.',
+    'Dear Patwari [Patwaris Full Name], the bathrooms in Sector 17 are in poor condition, affecting cleanliness. Kindly address this issue promptly to ensure a hygienic environment for residents. Your prompt attention is appreciated.',
+    'It has been observed that the bathroom facilities at your office are currently unavailable. While understanding the various responsibilities you manage, the availability of sanitary facilities is crucial. I trust you will address this matter promptly.',
+    'Details for Log 4',
+  ];
+
   final String logType;
 
   RequestLogList({required this.logType});
@@ -224,7 +234,7 @@ class RequestLogList extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(16.0),
-                      child: Text('Details for $logType Log ${index + 1}'),
+                      child: Text(logDetails[index]),
                     ),
                   ],
                 );

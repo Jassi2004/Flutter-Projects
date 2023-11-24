@@ -30,12 +30,12 @@ class _splashScreenState extends State<splashScreen> {
         ),
         child: Center(
           child: Container(
-            height: 150,
-            width: 150,
+            height: 200,
+            width: 200,
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage('assets/image/nekiLogo.jpeg'),
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
               ),
             ),
           ),
